@@ -1,0 +1,22 @@
+[
+  {
+    "query": "Summarize the paper",
+    "type": "summary",
+    "relevant_docs": ["doc1_chunk1", "doc1_chunk2"]
+  },
+  {
+    "query": "What methodology is used?",
+    "type": "factual",
+    "relevant_docs": ["doc1_chunk3"]
+  },
+  {
+    "query": "Compare methodologies across papers",
+    "type": "comparison",
+    "relevant_docs": ["doc1_chunk3", "doc2_chunk4"]
+  },
+  {
+    "query": "What are the key results?",
+    "type": "factual",
+    "relevant_docs": ["doc1_chunk5"]
+  }
+]

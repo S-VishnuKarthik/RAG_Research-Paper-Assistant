@@ -1,8 +1,8 @@
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 CROSS_ENCODER_MODEL = "cross-encoder/ms-marco-MiniLM-L-6-v2"
 
-CHUNK_SIZE = 500
-TOP_K = 10
+CHUNK_SIZE = 600
+TOP_K = 20
 FINAL_TOP_K = 5
 
 HNSW_M = 16

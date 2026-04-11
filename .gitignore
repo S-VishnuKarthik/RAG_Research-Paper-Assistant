@@ -5,3 +5,5 @@ __pycache__/
 *.log
 data/
 embeddings_cache/
+logs/
+faiss_index.bin

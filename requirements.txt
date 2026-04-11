@@ -14,3 +14,37 @@ transformers==4.46.3
 accelerate==1.1.1
 scikit-learn==1.5.2
 pandas==2.2.3
+
+
+# Core
+python-dotenv
+numpy
+pandas
+
+# PDF Processing
+PyMuPDF
+
+# NLP / Embeddings
+sentence-transformers
+transformers
+torch
+
+# Vector Search
+faiss-cpu
+
+# Keyword Search
+rank-bm25
+
+# LLM API
+openai
+
+# UI
+streamlit
+
+# Utils
+scikit-learn
+tqdm
+
+# Optional (better text processing)
+nltk
+spacy

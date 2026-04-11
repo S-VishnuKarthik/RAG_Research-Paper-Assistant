@@ -3,7 +3,6 @@ import logging
 logging.getLogger("transformers").setLevel(logging.ERROR)
 from ingestion.pdf_loader import extract_text_from_pdf
 from ingestion.chunker import chunk_text
-#from indexing.hnsw_index import HNSWIndex
 from indexing.bm25_index import BM25Index
 from retrieval.hybrid_retriever import hybrid_search
 from retrieval.reranker import rerank

@@ -1,0 +1,139 @@
+/* 🔥 GLOBAL THEME */
+body {
+    background-color: #0f172a;
+    color: #e2e8f0;
+    font-family: 'Inter', sans-serif;
+}
+
+/* 🔥 MAIN APP CONTAINER */
+.block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* 🔥 HEADINGS */
+h1, h2, h3 {
+    color: #f8fafc;
+    font-weight: 600;
+}
+
+/* 🔥 INPUT BOX */
+input, textarea {
+    border-radius: 10px !important;
+    border: 1px solid #334155 !important;
+    padding: 10px !important;
+    background-color: #1e293b !important;
+    color: #e2e8f0 !important;
+}
+
+/* 🔥 BUTTONS */
+.stButton > button {
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 0.6em 1.2em;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+}
+
+/* 🔥 FILE UPLOADER */
+.stFileUploader {
+    border: 2px dashed #475569;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #1e293b;
+}
+
+/* 🔥 ANSWER CARD */
+.answer-box {
+    background: linear-gradient(135deg, #1e293b, #020617);
+    padding: 15px;
+    border-radius: 12px;
+    border-left: 5px solid #22c55e;
+    margin-top: 10px;
+    color: #e2e8f0;
+}
+
+/* 🔥 SOURCE CARDS */
+.source-card {
+    background-color: #020617;
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* 🔥 METRIC BOX */
+.metric-container {
+    background: #020617;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #334155;
+}
+
+/* 🔥 EXPANDER */
+.streamlit-expanderHeader {
+    font-weight: 500;
+    color: #cbd5f5;
+}
+
+/* 🔥 SCROLLBAR */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 10px;
+}
+
+/* 🔥 CHAT STYLE (OPTIONAL) */
+.chat-user {
+    background-color: #1e293b;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.chat-bot {
+    background-color: #020617;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border-left: 4px solid #22c55e;
+}
+
+/* 🔥 SUCCESS / ERROR COLORS */
+.stSuccess {
+    background-color: #14532d !important;
+    color: #bbf7d0 !important;
+}
+
+.stError {
+    background-color: #7f1d1d !important;
+    color: #fecaca !important;
+}
+
+/* 🔥 TOOLTIP STYLE */
+.tooltip {
+    position: relative;
+    cursor: pointer;
+}
+
+.tooltip:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    background: #1e293b;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    top: -30px;
+    left: 0;
+    white-space: nowrap;
+}
